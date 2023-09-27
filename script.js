@@ -246,6 +246,31 @@ const j45 = {
     posicion: "mediocentro"
 }
 
+let nSocio = prompt ("Ingresá tu número de socio")
+
+function login () {
+    
+    let Passw = prompt ('Ingrese tu contraseña..');
+    let ingresar = false;
+    let intentos = 5;
+    
+    for (let i = intentos; i > 0 ; i--) {
+        let logPass = prompt('Ingresá la contraseña, Tenés ' + i + ' intento/s.');
+        if (Passw === logPass) {
+            alert('Bienvenido/a socio nº ' +nSocio);
+            ingresar = true;
+            break;
+        } else {
+            alert('Error, Te quedan ' + (i - 1) + ' intento/s.');
+        }
+    }
+}
+
+if (login ()) {
+    
+}
+
+
 let rosarioc;
 
 do {
