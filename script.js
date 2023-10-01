@@ -274,7 +274,7 @@ if (login()) {
 let rosarioc;
 
 do {
-    rosarioc = prompt("Información del canalla: \n (1) Plantilla 2023\n (2)Partidos jugados  \n (3) Consulta lesionados  \n (4) Salir");
+    rosarioc = prompt("Información del canalla: \n (1) Plantilla 2023\n (2) Partidos jugados  \n (3) Consulta lesionados  \n (4) Próximas fechas \n (5) Salir");
 
     switch (rosarioc) {
 
@@ -423,7 +423,7 @@ do {
 
 
         case '3':
-            if (prompt("Consulte jugador: ") == "lesionado") {
+            if (prompt("Escriba (j + numero de camiseta) Consulte jugador: ") == "lesionado") {
                 alert("El jugador no está en optimas condiciones físicas")
             }
             else {
@@ -431,6 +431,8 @@ do {
             }
             break;
         case '4':
+
+        case '5':
             alert('Gracias por consultar nuestra pagina!');
             break;
 
@@ -439,4 +441,4 @@ do {
     }
 
 
-} while (rosarioc !== '4'); 
+} while (rosarioc !== '5'); 
