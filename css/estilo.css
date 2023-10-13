@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+p {margin:5px;
+padding:10px}
+
+ol {
+    list-style: none;}
+
+li {
+    list-style: none;
+    margin:5px;
+    padding:2px;
+    text-align: center;
+}
