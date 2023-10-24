@@ -3,20 +3,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 h1 {
     margin: 10px;
     text-align: center;
 }
 
-p {margin:5px;
-padding:10px}
+p {
+    margin: 5px;
+    padding: 10px
+}
 
 ol {
-    list-style: none;}
+    list-style: none;
+}
 
 li {
     list-style: none;
-    margin:5px;
-    padding:2px;
+    margin: 5px;
+    padding: 2px;
     text-align: center;
 }
+
+body {
+    min-height: 100vh;
+    max-height: 100%;
+    background-color: rgba(255, 255, 0, 0.89);
+    color: blue;
+}
+
+.pl-cont {
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+    width: 750px;
+    max-width: 90%;
+    background-color: #fff0b9;
+    border-radius: 1.5rem;
+    border: 2px solid #031d91;
+    overflow: hidden;
+
+
+}
+
+.pl-cont:hover {
+    border: 1px solid #031d91;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75)
+}
+
+

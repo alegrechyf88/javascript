@@ -1,275 +1,25 @@
 
-//El plantel lo armé en un Array, en la próxima entrega esto desaparece.. j+ 
-
-const j1 = {
-        camiseta: "(1)",
-        nombre: "Jorge",
-        apellido: "Broun",
-        estado: "habilitado",
-        edad: 37,
-        posicion: "arquero"
-    }
-    
-    const j2 = {
-        camiseta: "(2)",
-        nombre: "Carlos",
-        apellido: "Quintana",
-        estado: "habilitado",
-        edad: 35,
-        posicion: "central"
-    }
-    
-    const j3 = {
-        camiseta: "(3)",
-        nombre: "Agustín",
-        apellido: "Sandez",
-        estado: "habilitado",
-        edad: 22,
-        posicion: "lateral izq"
-    }
-    
-    const j4 = {
-        camiseta: "(4)",
-        nombre: "Damían",
-        apellido: "Martinez",
-        estado: "habilitado",
-        edad: 33,
-        posicion: "lateral der"
-    }
-    
-    const j5 = {
-        camiseta: "(5)",
-        nombre: "Mac Allister",
-        apellido: "Francis",
-        estado: "lesionado",
-        edad: 27,
-        posicion: "mediocentro"
-    }
-    const j6 = {
-        camiseta: "(6)",
-        nombre: "Juan Cruz",
-        apellido: "Komar",
-        estado: "habilitado",
-        edad: 27,
-        posicion: "central"
-    }
-    
-    const j7 = {
-        camiseta: "(7)",
-        nombre: "Walter",
-        apellido: "Montoya",
-        estado: "lesionado",
-        edad: 30,
-        posicion: "medio derecho"
-    }
-    
-    const j8 = {
-        camiseta: "(8)",
-        nombre: "Agustin",
-        apellido: "Toledo",
-        estado: "habilitado",
-        edad: 23,
-        posicion: "mediocentro"
-    }
-    
-    const j9 = {
-        camiseta: "(9)",
-        nombre: "Tobias",
-        apellido: "Cervera",
-        estado: "habilitado",
-        edad: 21,
-        posicion: "Delantero"
-    }
-    
-    const j10 = {
-        camiseta: "(10)",
-        nombre: "Ignacio",
-        apellido: "Malcorra",
-        estado: "habilitado",
-        edad: 36,
-        posicion: "mediapunta"
-    }
-    
-    const j11 = {
-        camiseta: "(11)",
-        nombre: "Maxi",
-        apellido: "Lovera",
-        estado: "habilitado",
-        edad: 24,
-        posicion: "mediapunta"
-    }
-    const j13 = {
-        camiseta: "(13)",
-        nombre: "Jamilton",
-        apellido: "Campaz",
-        estado: "habilitado",
-        edad: 23,
-        posicion: "medio izq"
-    }
-    const j14 = {
-        camiseta: "(14)",
-        nombre: "Daddoni",
-        apellido: "Quinonez",
-        estado: "habilitado",
-        edad: 22,
-        posicion: "mediocentro"
-    }
-    
-    const j15 = {
-        camiseta: "(15)",
-        nombre: "Facundo",
-        apellido: "Mallo",
-        estado: "habilitado",
-        edad: 28,
-        posicion: "central"
-    }
-    
-    const j16 = {
-        camiseta: "(16)",
-        nombre: "Alan",
-        apellido: "Rodriguez",
-        estado: "habilitado",
-        edad: 23,
-        posicion: "lateral izq"
-    }
-    
-    const j17 = {
-        camiseta: "(17)",
-        nombre: "Ulises",
-        apellido: "Ciccioli",
-        estado: "habilitado",
-        edad: 20,
-        posicion: "lateral der"
-    }
-    
-    const j18 = {
-        camiseta: "(18)",
-        nombre: "Francesco",
-        apellido: "Lo Celso",
-        estado: "lesionado",
-        edad: 23,
-        posicion: "medio derecho"
-    }
-    const j20 = {
-        camiseta: "(20)",
-        nombre: "Axel",
-        apellido: "Werner",
-        estado: "habilitado",
-        edad: 27,
-        posicion: "arquero"
-    }
-    const j21 = {
-        camiseta: "(21)",
-        nombre: "Valentino",
-        apellido: "Quintero",
-        estado: "habilitado",
-        edad: 20,
-        posicion: "arquero"
-    }
-    const j22 = {
-        camiseta: "(22)",
-        nombre: "Lautaro",
-        apellido: "Giaconne",
-        estado: "habilitado",
-        edad: 22,
-        posicion: "medio derecho"
-    }
-    const j24 = {
-        camiseta: "(24)",
-        nombre: "Octavio",
-        apellido: "Bianchi",
-        estado: "habilitado",
-        edad: 22,
-        posicion: "medio derecho"
-    }
-    
-    const j26 = {
-        camiseta: "(26)",
-        nombre: "Ismael",
-        apellido: "Cortez",
-        estado: "habilitado",
-        edad: 21,
-        posicion: "lateral der"
-    }
-    const j29 = {
-        camiseta: "(29)",
-        nombre: "Luca",
-        apellido: "martinez Dupuy",
-        estado: "habilitado",
-        edad: 22,
-        posicion: "Delantero"
-    }
-    const j30 = {
-        camiseta: "(30)",
-        nombre: "Tomas",
-        apellido: "Oconnor",
-        estado: "habilitado",
-        edad: 19,
-        posicion: "amedio derecho"
-    }
-    const j31 = {
-        camiseta: "(31)",
-        nombre: "Facundo",
-        apellido: "Aguero",
-        estado: "habilitado",
-        edad: 28,
-        posicion: "central"
-    }
-    const j36 = {
-        camiseta: "(36)",
-        nombre: "Cristian",
-        apellido: "Bonesso",
-        estado: "habilitado",
-        edad: 19,
-        posicion: "Delantero"
-    }
-    const j39 = {
-        camiseta: "(39)",
-        nombre: "Fabricio",
-        apellido: "Oviedo",
-        estado: "habilitado",
-        edad: 19,
-        posicion: "Delantero"
-    }
-    const j44 = {
-        camiseta: "(44)",
-        nombre: "Agustín",
-        apellido: "Modica",
-        estado: "habilitado",
-        edad: 22,
-        posicion: "Delantero"
-    }
-    
-    const j45 = {
-        camiseta: "(45)",
-        nombre: "Kevin",
-        apellido: "Ortiz",
-        estado: "lesionado",
-        edad: 23,
-        posicion: "mediocentro"
-    }
-
-
-
-
 const plantelCompleto = [
     {
+        id: 'jug1',
         camiseta: "(1)",
         jugador: "Jorge Broun",
         estado: "habilitado",
         sueldo: 50000,
         edad: 37,
-        posicion: "Arquero"},
+        posicion: 'Arquero'},
 
  {
+        id: 'jug2',
         camiseta: "(2)",
-        jugador:"Carlos Quintana",
+        jugador:'Carlos Quintana',
         estado: "habilitado",
         sueldo: 75000,
         edad: 35,
         posicion: "Central"},
 
 {
+        id: 'jug3',
         camiseta: "(3)",
         jugador: "Agustín Sandez",
         estado: "habilitado",
@@ -278,6 +28,7 @@ const plantelCompleto = [
         posicion: "Lateral izquierdo"},
 
  {
+        id: 'jug4',
         camiseta: "(4)",
         jugador: "Damían Martinez",
         estado: "habilitado",
@@ -472,7 +223,7 @@ const plantelCompleto = [
         posicion: "Mediocentro"}]
 
 
-        let nSocio = prompt ("Ingresá tu número de socio")
+/*       let nSocio = prompt ("Ingresá tu número de socio")
 
         function login() {
         
@@ -691,7 +442,7 @@ let ConsultaFecha = prompt  ("Consulta la fecha, ingresando el nº de fecha");
 } while (rosarioc !== '5'); 
 
 
-
+*/
 
 const sumaEdades = plantelCompleto.reduce((acumulador, jugador) => acumulador + jugador.edad, 0);
 
@@ -712,11 +463,12 @@ if (promedioEdades >= 26) {
     const plantelPrimera = document.getElementById("plantelprimera");
 
 
-    plantelCompleto.forEach((plantelCompleto) => {
+   /* plantelCompleto.forEach((plantelCompleto) => {  generar la planilla de jugadores
+
       const elementoLi = document.createElement("li");
       elementoLi.textContent = `${plantelCompleto.camiseta} ${plantelCompleto.jugador}, Posición: ${plantelCompleto.posicion}, Edad: ${plantelCompleto.edad}`;
       plantelPrimera.appendChild(elementoLi);
-    });
+    }); */
     
 
     cantidadjugadores.innerHTML = (`Hoy Central cuenta en su plantel profesional con ${plantelCompleto.length} profesionales`) //Cuantos jugadores cuenta en el plantel
@@ -734,8 +486,36 @@ if (promedioEdades >= 26) {
     sueldopjugadores.innerHTML = (`El promedio de sueldos mensuales que el club paga es de U$S ${Math.round(promedioSueldos)}`) //Sueldos promedio del equipo
 
 
-    const delanteros = plantelCompleto.filter(jugador => jugador.posicion === 'delantero');
-    const cantidadDelanteros = delanteros.length;
+    
+    let contenedor = document.createElement("div");
 
-    cantdelanteros.innerHTML = ('La cantidad de delanteros es:', cantidadDelanteros);
 
+
+
+for (const plantilla of plantelCompleto) {
+    contenedor.innerHTML += `
+    <article class="plantel-cont">
+        <div class="pl-cont">
+        <h2>${plantilla.camiseta}</h2>
+        <h2> - ${plantilla.jugador}</h2>
+        <p> Posicion: ${plantilla.posicion}</p>
+        <p> Edad: ${plantilla.edad}</p> 
+        </div>
+        </article>`;}
+
+document.body.append(contenedor)
+
+
+var texto = document.getElementById('texto')
+var palabra = "hola";//definimos el texto original
+var texto2 = "adios";
+var cambio = false
+function cambiartexto() {
+    if (cambio) {
+        texto.innerHTML = palabra;
+        cambio = false
+    }else{
+      texto.innerHTML = texto2;
+      cambio = true
+    }
+}
