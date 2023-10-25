@@ -7,6 +7,7 @@ const plantelCompleto = [
         estado: "habilitado",
         sueldo: 50000,
         edad: 37,
+        partidos: 387,
         posicion: 'Arquero'},
 
  {
@@ -16,6 +17,7 @@ const plantelCompleto = [
         estado: "habilitado",
         sueldo: 75000,
         edad: 35,
+        partidos: 33,
         posicion: "Central"},
 
 {
@@ -25,6 +27,7 @@ const plantelCompleto = [
         estado: "habilitado",
         sueldo: 20000,
         edad: 22,
+        partidos: 6,
         posicion: "Lateral izquierdo"},
 
  {
@@ -34,6 +37,8 @@ const plantelCompleto = [
         estado: "habilitado",
         sueldo: 40000,
         edad: 33,
+        partidos: 121,
+        goles: 8,
         posicion: "Lateral derecho"},
 
  {
@@ -42,6 +47,8 @@ const plantelCompleto = [
         estado: "lesionado",
         sueldo: 35000,
         edad: 27,
+        partidos: 38,
+        goles: 1,
         posicion: "Mediocentro"},
  {
         camiseta: "(6)",
@@ -49,6 +56,8 @@ const plantelCompleto = [
         estado: "habilitado",
         sueldo: 55000,
         edad: 27,
+        partidos: 43,
+        goles: 1,
         posicion: "Central"},
 {
         camiseta: "(7)",
@@ -56,6 +65,8 @@ const plantelCompleto = [
         estado: "lesionado",
         sueldo: 80000,
         edad: 30,
+        partidos: 104, 
+        goles: 9,
         posicion: "Medio derecho"},
 
  {
@@ -471,9 +482,9 @@ if (promedioEdades >= 26) {
     }); */
     
 
-    cantidadjugadores.innerHTML = (`Hoy Central cuenta en su plantel profesional con ${plantelCompleto.length} profesionales`) //Cuantos jugadores cuenta en el plantel
+    cantidadjugadores.innerHTML = (`Hoy Central cuenta en su plantel profesional con ${plantelCompleto.length} profesionales`); //Cuantos jugadores cuenta en el plantel
 
-    edaddejugadores.innerHTML = (`El equipo cuenta con un plantel que promedia los ${Math.round(promedioEdades)} años de edad.`) //Promedio de edad del equipo 
+    edaddejugadores.innerHTML = (`El equipo cuenta con un plantel que promedia los ${Math.round(promedioEdades)} años de edad.`); //Promedio de edad del equipo 
 
 
 
@@ -483,7 +494,7 @@ if (promedioEdades >= 26) {
     
     console.log(`El sueldo promedio del plantel esde: ${promedioSueldos} dólares`);
 
-    sueldopjugadores.innerHTML = (`El promedio de sueldos mensuales que el club paga es de U$S ${Math.round(promedioSueldos)}`) //Sueldos promedio del equipo
+    sueldopjugadores.innerHTML = (`El promedio de sueldos mensuales que el club paga es de U$S ${Math.round(promedioSueldos)}`); //Sueldos promedio del equipo
 
 
     
@@ -491,7 +502,7 @@ if (promedioEdades >= 26) {
 
 
 
-
+// genera recorrido por toda la plantilla, y muestra lo que se pide acontinuación como Nº camiseta, nombre, posición y edad
 for (const plantilla of plantelCompleto) {
     contenedor.innerHTML += `
     <article class="plantel-cont">
@@ -503,19 +514,8 @@ for (const plantilla of plantelCompleto) {
         </div>
         </article>`;}
 
-document.body.append(contenedor)
+document.body.append(contenedor);
 
 
-var texto = document.getElementById('texto')
-var palabra = "hola";//definimos el texto original
-var texto2 = "adios";
-var cambio = false
-function cambiartexto() {
-    if (cambio) {
-        texto.innerHTML = palabra;
-        cambio = false
-    }else{
-      texto.innerHTML = texto2;
-      cambio = true
-    }
-}
+
+ 
